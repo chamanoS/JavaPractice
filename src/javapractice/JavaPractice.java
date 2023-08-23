@@ -15,15 +15,16 @@ public class JavaPractice {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Scanner myobj = new Scanner(System.in);
-        System.out.print("Enter the Value : ");
-        
-        String myInput = myobj.next();
-        System.out.print(" The input you have entred is: " + myInput +" " );
+//        Scanner myobj = new Scanner(System.in);
+//        System.out.print("Enter the Value : ");
+//        
+//        String myInput = myobj.next();
+//        System.out.print(" The input you have entred is: " + myInput +" " );
         
         System.out.print("Starting ");
         
         basics.Basics.basic();
+        PrintMatrixNumbers.MatrixNumber.matrix();
     }
     
 }
